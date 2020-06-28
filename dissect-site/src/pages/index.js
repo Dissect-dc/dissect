@@ -10,15 +10,12 @@ import {
 } from "gatsby"
 import Img from "gatsby-image"
 import "./index.css"
-import createStore from "../things/createStore";
 import Layout from "../components/layout";
 import {
-    Div, Image,
+    Image,
     Text
 } from "atomize"
 import logo from "../images/dissect-logo.png";
-
-const store = createStore()
 
 const bg1 = require('../images/Uten_navn-2.jpg');
 const divStyle = {
@@ -27,10 +24,6 @@ const divStyle = {
     backgroundImage: `url(${bg1})`,
     backgroundSize: 'cover'
 };
-
-export function getStore() {
-    return store;
-}
 
 export default ({data}) => (
     <Layout>
@@ -55,14 +48,12 @@ export default ({data}) => (
                                   textSize="title"
                                   bg="white"
                                   className="rcorners-upper">
-
                                 Berserker
                             </Text>
                             <Link to="/berserker">
                                 <Img
                                     className="blackwhite rcorners-lower"
-                                    fluid={data.berserker.childImageSharp.fluid}
-                                />
+                                    fluid={data.berserker.childImageSharp.fluid}/>
                             </Link>
                         </div>
                         <div className="column hundred zoom">
@@ -91,7 +82,8 @@ export default ({data}) => (
                                 Renegade
                             </Text>
                             <Link to="/renegade">
-                                <Img className="blackwhite rcorners-lower" fluid={data.renegade.childImageSharp.fluid}/>
+                                <Img className="blackwhite rcorners-lower"
+                                     fluid={data.renegade.childImageSharp.fluid}/>
                             </Link>
                         </div>
                         <div className="column hundred zoom">
@@ -120,7 +112,8 @@ export default ({data}) => (
                                 Weaver
                             </Text>
                             <Link to="/weaver">
-                                <Img className="blackwhite rcorners-lower" fluid={data.weaver.childImageSharp.fluid}/>
+                                <Img className="blackwhite rcorners-lower"
+                                     fluid={data.weaver.childImageSharp.fluid}/>
                             </Link>
                         </div>
                     </div>

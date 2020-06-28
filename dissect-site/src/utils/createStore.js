@@ -1,4 +1,3 @@
-
 import { createStore, applyMiddleware, combineReducers } from 'redux';
 import createSagaMiddleware from 'redux-saga';
 
@@ -24,6 +23,5 @@ export default () => {
     );
 
     sagaMiddleware.run(saga);
-
     return store;
 };

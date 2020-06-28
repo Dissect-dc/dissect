@@ -151,7 +151,7 @@ class Header extends React.Component {
                                 transition
                                 onClick={() => scrollTo("")}
                             >
-                                <Link to="/apply">
+                                <Link hidden to="/apply">
                                     <Icon name="Mail" color="black" size="15px"/>
                                     Application
                                 </Link>

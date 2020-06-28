@@ -2,12 +2,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import {StaticQuery, graphql} from "gatsby"
 import "./font.css"
-// import "./wow.css"
 
-import {StyleReset, ThemeProvider, Div} from "atomize"
-import {Provider} from "react-redux";
-import createStore from "../things/createStore";
-import {Gw2ThemeProvider} from "gw2-ui-components";
+import {StyleReset} from "atomize"
+import {ThemeProvider, defaultTheme} from "gw2-ui";
 
 const theme = {
     fontFamily: {
@@ -51,16 +48,12 @@ class Layout extends React.Component {
           }
         `}
                 render={data => (
-                    <Provider store={createStore()}>
-                        <Gw2ThemeProvider>
-                            <ThemeProvider theme={theme}>
-                                <StyleReset/>
-                                <Div tag="main">
-                                    {children}
-                                </Div>
-                            </ThemeProvider>
-                        </Gw2ThemeProvider>
-                    </Provider>
+                    <ThemeProvider theme={defaultTheme}>
+                        <StyleReset/>
+                        <div tag="main">
+                            {children}
+                        </div>
+                    </ThemeProvider>
                 )}
             />
         )

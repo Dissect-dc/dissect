@@ -11,8 +11,8 @@ value: <coin value="1231231231"/>
 <skill id="14375"/>
 
 <Trait id="229"/>
-                    <Skill id="14375"/>
-                    <TraitLine
-                        id={41}
-                        selected={[227, 214, 1672]}
-                    />
+<Skill id="14375"/>
+<TraitLine
+     id={41}
+     selected={[227, 214, 1672]}
+/>
