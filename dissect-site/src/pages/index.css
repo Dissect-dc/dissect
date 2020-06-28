@@ -1,0 +1,39 @@
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 20%;
+    max-width: 20%;
+    height: 100px;
+    padding: 0.8vw;
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.hundred {
+    width: 100%;
+}
+
+.centering {
+    text-align: center;
+}
+
+.builds {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.blackwhite {
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+}
+.blackwhite:hover {
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+}
