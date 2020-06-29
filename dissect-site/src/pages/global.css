@@ -30,6 +30,11 @@
     border-right: 1px solid #000000;
 }
 
+.class-icon {
+ /*   border-radius: 50%; */
+/*    border: 2px solid #000000; */
+}
+
 .zoom {
     transition: transform .2s; /* Animation */
     margin: 0 auto;
@@ -40,9 +45,13 @@
 }
 
 .image_block {
-
     display: block;
     margin: 0 auto;
     position: relative;
     bottom: -300px;
+}
+
+.builds-icons {
+    padding-left: 35vw;
+    padding-right: 35vw;
 }

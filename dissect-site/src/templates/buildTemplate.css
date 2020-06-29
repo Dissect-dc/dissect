@@ -1,0 +1,9 @@
+.dissect-build {
+
+    background-color: whitesmoke;
+    padding: 5vh;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0px 0px 15px 0px rgba(99,99,99,1);
+    -moz-box-shadow: inset 0px 0px 15px 0px rgba(99,99,99,1);
+    box-shadow: inset 0px 0px 15px 0px rgba(99,99,99,1);
+}
