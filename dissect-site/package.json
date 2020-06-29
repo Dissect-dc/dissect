@@ -27,7 +27,7 @@
     "lqip.macro": "^0.1.5",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-dom": "^16.12.0",
+    "react-dom": "^16.13.1",
     "react-full-page": "^0.1.9",
     "react-helmet": "^6.1.0",
     "react-ideal-image": "0.0.5",
