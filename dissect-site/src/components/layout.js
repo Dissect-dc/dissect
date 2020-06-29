@@ -6,6 +6,8 @@ import "./font.css"
 import {StyleReset} from "atomize"
 import {ThemeProvider, defaultTheme} from "gw2-ui";
 
+import 'typeface-menomonia'
+
 const theme = {
     fontFamily: {
         primary:
