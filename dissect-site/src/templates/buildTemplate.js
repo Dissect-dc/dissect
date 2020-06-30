@@ -31,9 +31,7 @@ export default function Template({
                 <BuildHeader/>
                 <div className="dissect-horizontal">
 
-
                     <div className="dissect-build">
-                        <Profession eliteSpecialization="Weaver"></Profession>
                         <div>{renderAst(htmlAst)}</div>
                     </div>
                 </div>

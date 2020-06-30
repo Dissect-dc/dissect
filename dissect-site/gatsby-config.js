@@ -1,4 +1,5 @@
 module.exports = {
+    pathPrefix: "/dissect",
     siteMetadata: {
         title: `Dissect [Dc]`,
         description: `The official website for the hardcore fractal guild Dissect [Dc].`,
