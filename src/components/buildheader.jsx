@@ -1,9 +1,5 @@
 import React from "react"
-import {Div, Image, Container, Anchor, scrollTo, Icon} from "atomize"
-import logo from "../images/dissect-logo.png"
-import {graphql, Link} from 'gatsby'
-import {Specialization} from "gw2-ui";
-import Img from "gatsby-image";
+import {Link} from 'gatsby'
 
 import "../pages/global.css"
 
