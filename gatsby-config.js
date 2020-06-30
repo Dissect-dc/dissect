@@ -15,7 +15,15 @@ module.exports = {
             },
         },
         `gatsby-transformer-sharp`,
-        `gatsby-plugin-sharp`,
+        {
+            resolve: `gatsby-plugin-sharp`,
+            options: {
+                useMozJpeg: true,
+                stripMetadata: true,
+                defaultQuality: 80,
+            },
+        },
+
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
@@ -31,14 +39,6 @@ module.exports = {
         // this (optional) plugin enables Progressive Web App + Offline functionality
         // To learn more, visit: https://gatsby.dev/offline
         `gatsby-plugin-offline`,
-        {
-            resolve: "gatsby-plugin-styletron",
-            options: {
-                // You can pass options to Styletron.
-                // Prefix all generated classNames:
-                prefix: "_"
-            }
-        },
         {
             resolve: `gatsby-source-filesystem`,
             options: {
