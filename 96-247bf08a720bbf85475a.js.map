@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./node_modules/gw2-ui-components/es/assets/images/icons/Profession/Necromancer.png"],"names":["module","exports"],"mappings":"+EAAAA,EAAOC,QAAU,IAA0B","file":"96-247bf08a720bbf85475a.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/Necromancer-c9f1b20f2c22f836162da9dc69661f1d.png\";"],"sourceRoot":""}

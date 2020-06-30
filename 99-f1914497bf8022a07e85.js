@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[99],{"9XC2":function(c,n,p){c.exports=p.p+"static/Revenant-6627fe79020c13d7c3c3c77cfaad883c.png"}}]);
+//# sourceMappingURL=99-f1914497bf8022a07e85.js.map

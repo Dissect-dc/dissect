@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./node_modules/gw2-ui-components/es/assets/images/icons/Profession/Herald.png"],"names":["module","exports"],"mappings":"+EAAAA,EAAOC,QAAU,IAA0B","file":"91-49d931b5082f0a08f1b6.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/Herald-4a3c07c6657831aaea7852ec184d4fa4.png\";"],"sourceRoot":""}

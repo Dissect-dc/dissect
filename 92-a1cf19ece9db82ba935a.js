@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[92],{xaPi:function(a,p,c){a.exports=c.p+"static/Herald-4a3c07c6657831aaea7852ec184d4fa4.png"}}]);
+//# sourceMappingURL=92-a1cf19ece9db82ba935a.js.map

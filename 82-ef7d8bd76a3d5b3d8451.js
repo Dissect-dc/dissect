@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[82],{QDb1:function(p,b,c){p.exports=c.p+"static/Berserker-043b8dabbeb283c1605055c7515036c4.png"}}]);
+//# sourceMappingURL=82-ef7d8bd76a3d5b3d8451.js.map

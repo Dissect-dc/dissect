@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[95],{d3Df:function(c,n,p){c.exports=p.p+"static/Necromancer-c9f1b20f2c22f836162da9dc69661f1d.png"}}]);
+//# sourceMappingURL=95-f56f4a0c79d36e9fce1f.js.map
