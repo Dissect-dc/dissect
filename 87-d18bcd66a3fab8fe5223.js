@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[87],{I0Km:function(a,p,e){a.exports=e.p+"static/Druid-fecff5d7e5db108ea9e283fd3aaaf33a.png"}}]);
-//# sourceMappingURL=87-d18bcd66a3fab8fe5223.js.map
