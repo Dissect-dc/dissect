@@ -1,14 +1,14 @@
 exports.ids = [96];
 exports.modules = {
 
-/***/ "./node_modules/gw2-ui-components/es/assets/images/icons/Profession/Warrior.png":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/gw2-ui-components/es/assets/images/icons/Profession/Warrior.png ***!
-  \**************************************************************************************/
+/***/ "./node_modules/gw2-ui-components/es/assets/images/icons/Profession/Druid.png":
+/*!************************************************************************************!*\
+  !*** ./node_modules/gw2-ui-components/es/assets/images/icons/Profession/Druid.png ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/Warrior-45b0287cb8208c5a409f3d5afbea5694.png";
+module.exports = __webpack_require__.p + "static/Druid-fecff5d7e5db108ea9e283fd3aaaf33a.png";
 
 /***/ })
 

@@ -1,14 +1,14 @@
 exports.ids = [95];
 exports.modules = {
 
-/***/ "./node_modules/gw2-ui-components/es/assets/images/icons/Profession/Thief.png":
-/*!************************************************************************************!*\
-  !*** ./node_modules/gw2-ui-components/es/assets/images/icons/Profession/Thief.png ***!
-  \************************************************************************************/
+/***/ "./node_modules/gw2-ui-components/es/assets/images/icons/Profession/Dragonhunter.png":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/gw2-ui-components/es/assets/images/icons/Profession/Dragonhunter.png ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/Thief-9d383ca627eef7d5c5f3d274386eb31b.png";
+module.exports = __webpack_require__.p + "static/Dragonhunter-da1d2a40534b4515d3021c59d05d045e.png";
 
 /***/ })
 

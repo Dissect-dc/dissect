@@ -1,14 +1,14 @@
 exports.ids = [93];
 exports.modules = {
 
-/***/ "./node_modules/gw2-ui-components/es/assets/images/icons/Profession/Spellbreaker.png":
-/*!*******************************************************************************************!*\
-  !*** ./node_modules/gw2-ui-components/es/assets/images/icons/Profession/Spellbreaker.png ***!
-  \*******************************************************************************************/
+/***/ "./node_modules/gw2-ui-components/es/assets/images/icons/Profession/Daredevil.png":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/gw2-ui-components/es/assets/images/icons/Profession/Daredevil.png ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/Spellbreaker-ba89191bad9cdf7c92c22e4ffd0af7ee.png";
+module.exports = __webpack_require__.p + "static/Daredevil-64f2c374d944937f7839316dfa222523.png";
 
 /***/ })
 
