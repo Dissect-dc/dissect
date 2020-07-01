@@ -5,7 +5,7 @@ import Header from "../components/header";
 
 const Members = () => (
     <Layout>
-        <div className="bg">
+        <div className="bg1">
 
             <Header/>
             <div className="dissect-horizontal">

@@ -10,80 +10,67 @@ import {
 } from "gatsby"
 import Img from "gatsby-image"
 import "./index.css"
+import "./global.css"
 import Layout from "../components/layout";
 
 
 import logo from "../images/dissect-logo.png";
 
-const bg1 = require('../images/Uten_navn-2.jpg');
-const divStyle = {
-    width: '100%',
-    height: '100%',
-    margin: '0px',
-    padding: '0px',
-    backgroundImage: `url(${bg1})`,
-    backgroundSize: 'cover'
-};
 
 export default ({data}) => (
     <Layout>
         <FullPage>
             <Slide>
-                <div className="cComponent" style={divStyle}>
+                <div className="bg0">
                     <Header/>
                 </div>
             </Slide>
-            <Slide className="bg">
-                <div className="dissect-vertical">
+            <Slide>
+                <div className="bg1">
+                    <div className="dissect-vertical">
 
-                    <div className="row builds">
-                        <div className="column hundred zoom">
-                            <div className="rcorners-upper centering">Berserker</div>
-                            <Link to="/berserker">
-                                <Img
-                                    className="blackwhite rcorners-lower"
-                                    fluid={data.berserker.childImageSharp.fluid}/>
-                            </Link>
-                        </div>
-                        <div className="column hundred zoom">
-                            <div className="rcorners-upper centering">Firebrand</div>
-                            <Link to="/firebrand">
-                                <Img className="blackwhite rcorners-lower"
-                                     fluid={data.firebrand.childImageSharp.fluid}/>
-                            </Link>
-                        </div>
-                        <div className="column hundred zoom">
-                            <div className="rcorners-upper centering">Renegade</div>
+                        <div className="row builds">
+                            <div className="column hundred zoom">
+                                <div className="rcorners-upper centering">Berserker</div>
+                                <Link to="/berserker">
+                                    <Img
+                                        className="blackwhite rcorners-lower"
+                                        fluid={data.berserker.childImageSharp.fluid}/>
+                                </Link>
+                            </div>
+                            <div className="column hundred zoom">
+                                <div className="rcorners-upper centering">Firebrand</div>
+                                <Link to="/firebrand">
+                                    <Img className="blackwhite rcorners-lower"
+                                         fluid={data.firebrand.childImageSharp.fluid}/>
+                                </Link>
+                            </div>
+                            <div className="column hundred zoom">
+                                <div className="rcorners-upper centering">Renegade</div>
 
-                            <Link to="/renegade">
-                                <Img className="blackwhite rcorners-lower"
-                                     fluid={data.renegade.childImageSharp.fluid}/>
-                            </Link>
-                        </div>
-                        <div className="column hundred zoom">
-                            <div className="rcorners-upper centering">Soulbeast</div>
+                                <Link to="/renegade">
+                                    <Img className="blackwhite rcorners-lower"
+                                         fluid={data.renegade.childImageSharp.fluid}/>
+                                </Link>
+                            </div>
+                            <div className="column hundred zoom">
+                                <div className="rcorners-upper centering">Soulbeast</div>
 
-                            <Link to="/soulbeast">
-                                <Img className="blackwhite rcorners-lower"
-                                     fluid={data.soulbeast.childImageSharp.fluid}/>
-                            </Link>
-                        </div>
-                        <div className="column hundred zoom">
-                            <div className="rcorners-upper centering">Weaver</div>
+                                <Link to="/soulbeast">
+                                    <Img className="blackwhite rcorners-lower"
+                                         fluid={data.soulbeast.childImageSharp.fluid}/>
+                                </Link>
+                            </div>
+                            <div className="column hundred zoom">
+                                <div className="rcorners-upper centering">Weaver</div>
 
-                            <Link to="/weaver">
-                                <Img className="blackwhite rcorners-lower"
-                                     fluid={data.weaver.childImageSharp.fluid}/>
-                            </Link>
+                                <Link to="/weaver">
+                                    <Img className="blackwhite rcorners-lower"
+                                         fluid={data.weaver.childImageSharp.fluid}/>
+                                </Link>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div>
-                    <img
-                        className="image_block"
-                        src={logo}
-                    />
                 </div>
             </Slide>
         </FullPage>

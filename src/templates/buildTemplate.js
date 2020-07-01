@@ -25,7 +25,7 @@ export default function Template({
     const {frontmatter, htmlAst} = markdownRemark
     const code = (
         <Layout>
-            <div className="bg">
+            <div className="bg1">
                 <Header/>
 
                 <BuildHeader/>

@@ -38,3 +38,10 @@
     -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(0%); /* FF 35+ */
 }
+
+.bg0 {
+     width: 100%;
+     height: 100vh;
+     background-image: url("../images/Uten_navn-2.jpg");
+     background-size: cover;
+ }
