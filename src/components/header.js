@@ -21,16 +21,22 @@ class Header extends React.Component {
 
         return (
             <>
-                <Box display="flex" justifyContent="flex-end" >
-                    <Button  href="/" color="inherit">
-                        <HomeIcon/>Home
+                <Box display="flex" justifyContent="flex-end">
+                    <Button color="inherit">
+                        <Link className="nolink" to="/">
+                            <HomeIcon/>Home
+                        </Link>
                     </Button>
 
                     <Button color="inherit">
-                        <Link to="/members"><PeopleIcon/>Members</Link>
+                        <Link className="nolink" to="/members">
+                            <PeopleIcon/>Members
+                        </Link>
                     </Button>
-                    <Button href="/apply" color="inherit">
-                        <MailIcon/>Apply
+                    <Button color="inherit">
+                        <Link className="nolink" to="/apply">
+                            <MailIcon/>Apply
+                        </Link>
                     </Button>
                 </Box>
             </>

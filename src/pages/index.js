@@ -80,7 +80,7 @@ export default ({data}) => (
 export const buildImage = graphql`
     fragment buildImage on File {
         childImageSharp {
-            fluid(maxWidth: 200, quality: 90) {
+            fluid(maxWidth: 800, quality: 90) {
                 ...GatsbyImageSharpFluid
             }
         }
